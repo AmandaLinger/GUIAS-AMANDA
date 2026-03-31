@@ -1,7 +1,11 @@
+.flexColumnCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h1{
-    color:  white;
     text-align: center;
-    margin-top: 100px;
     font-size: 40px;
 }
 
@@ -17,7 +21,6 @@ h1{
     padding: 15px 30px;
     margin: 10px;
     background-color: #007bff;
-    color: white;
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
@@ -28,6 +31,7 @@ h1{
     align-items: center;
     justify-content: center;
     gap: 8px;
+    color: white;
 }
 
 .style_button:hover {
@@ -35,18 +39,4 @@ h1{
     scale: 1.03;
 
     border: 2px solid white;
-}
-
-
-img{
-    width: 25px;
-    height: 25px;
-}
-
-
-
-
-//page guia_compras
-h3{
-    color: white;
 }

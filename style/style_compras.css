@@ -1,6 +1,10 @@
-h3{
-    color: white;
+.subtitulo{
     font-size: 30px;
     text-align: center;
-    padding-top: 70px;
+}
+.conteudo{
+    padding: 80px 130px 0px;
+}
+.conteudo div{
+    margin-bottom: 16px;
 }
