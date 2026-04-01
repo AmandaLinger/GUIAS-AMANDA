@@ -3,14 +3,14 @@
     text-align: center;
 }
 .conteudo{
-    padding: 80px 130px 0px;
+    padding: 48px 130px 24px;
 }
 .conteudo div{
     margin-bottom: 24px;
 }
 
 .body_margin_bottom{
-    padding: 0px 0px 50px;
+    padding: px 0px 50px 0px;
 }
 
 .estilo_fluxograma{
@@ -20,7 +20,7 @@
 }
 
 .estilo_fluxograma button{
-    background: white ;
+    background: white;
     padding:8px;
     border: none;
     border-radius: 8px;
