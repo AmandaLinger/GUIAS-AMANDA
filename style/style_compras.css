@@ -12,3 +12,33 @@
 .body_margin_bottom{
     padding: 0px 0px 50px;
 }
+
+.estilo_fluxograma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo_fluxograma button{
+    background: white ;
+    padding:8px;
+    border: none;
+    border-radius: 8px;
+    height: 80px;
+}
+
+.estilo_fluxograma a{
+    text-decoration: none;
+
+    display: flex;
+}
+
+
+.style_flex{
+    display: flex;
+    gap: 8px;
+}
+
+.container_espaco{
+    margin-bottom: 80px;
+}
