@@ -1,32 +1,130 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guias Sonner</title>
+    <title>Fluxograma</title>
     <link rel="stylesheet" href="style/global.css">
 </head>
-<body class="flexColumnCenter">
-
-    <div class="cabecalho">
-        <h1>Guias Sonner</h1>
+<body class="fluxograma">
+    <div>
+        <h1>Fluxograma de compras</h1>
     </div>
-    <div class="container_buttons">
-        <a class="style_button" href="pages/compras/compras_home.html">
-            Sitema de compras
-        </a>
+    <div class="estilo_fluxograma style_flex">
+        <div class="style_flex">
+            <button>
+                <a href="pages/compras/SC_tipos_solicitacao.html">Solicitação de compra</a>
+            </button>
 
-        <a class="style_button" href="pages/contabilidade/SCP_home.html">
-            Sitema de contabilidade</a>
+            <p>→</p>
 
-        <a class="style_button" href="">
-            Sitema de almoxerifado</a>
+            <button>
+                <a href="pages/compras/SC_processo_compra.html">Processo de compra</a>
+            </button>
 
-        <a class="style_button" href="">
-            Sitema de patrimonio</a>
+            <p>→</p>
+
+            <button>
+                <a href="">Cotações</a>
+            </button>
+
+            <p>→</p>
+
+            <button>
+                <a href="">Processo licitatorio</a>
+            </button>
+        </div>
+
+        
+        <div class="gap30">
+            <div class="style_flex container_espaco">
+                <button>
+                    <a href="">Contrato/convenio</a>
+                </button>
+
+                <p>→</p>
+
+                <button>
+                    <a href="">Solicitação de compras para geração de pedido de contrato</a>
+                </button>
+
+                <p>→</p>
+
+                <button>
+                    <a href="">Geração de pedido para solicitação de contrato</a>
+                </button>
+            </div>
+
+            <div class="style_flex">
+                <button>
+                    <a href="">Ata de registro de preço</a>
+                </button>
+
+                <p>→</p>
+
+                <button>
+                    <a href="">Solicitação de compras para geração de pedido de registro de preço</a>
+                </button>
+
+                <p>→</p>
+
+                <button>
+                    <a href="">Geração de pedido para solicitação de registro de preço</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="style_flex">
+            <button>
+                <a href="pages/contabilidade/SCP_empenho.html">Empenhamento</a>
+            </button>
+
+            <p>→</p>
+
+            <button>
+                <a href="">Pedido parcial</a>
+            </button>
+
+            <p>→</p>
+
+            <button>
+                <a href="">Liquidação</a>
+            </button>
+
+            <p>→</p>
+
+            <button>
+                <a href="">Conferência da documentação</a>
+            </button>
+
+            <p>→</p>
+
+            <button>
+                <a href="">Autorização de pagamento</a>
+            </button>
+        </div>
+
+        </div>
     </div>
 
-    <footer id="footer"></footer>
-    <script src="script.js"></script>
+    <div>
+        <button id="toggleBtn">☰</button>
+
+        <div id="menuLateral" class="menu">
+        <a href="fluxograma.html">Sitema de compras</a>
+        <a href="pages/contabilidade/SCP_home.html">Sitema de contabilidade</a>
+        <a href="pagina2.html">Sitema de almoxerifado</a>
+        <a href="pagina3.html">Sitema de patrimonio</a>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.getElementById("toggleBtn");
+        const menu = document.getElementById("menuLateral");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("ativo");
+        });
+    </script>
 </body>
 </html>

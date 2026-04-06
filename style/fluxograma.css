@@ -1,0 +1,100 @@
+body .fluxograma{
+    display: flex;
+
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.fluxograma div h1{
+    margin: 0;
+    padding-top: 24px;
+}
+.estilo_fluxograma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:120px 24px 0px;
+}
+
+.estilo_fluxograma button{
+    background: #006adc;
+    font-weight: 500;
+    padding:8px;
+    border: none;
+    border-radius: 8px;
+    height: 70px;
+    
+}
+
+.estilo_fluxograma button a{
+    color: #ffffff;
+    font-size: 10px;
+}
+
+
+.estilo_fluxograma button:hover{
+    scale: 1.1;
+    background: #007bff;
+
+    transition: 0.3s;
+}
+
+.estilo_fluxograma a{
+    text-decoration: none;
+
+    display: flex;
+}
+
+
+.style_flex{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.container_espaco{
+    margin-bottom: 80px;
+}
+
+
+
+#toggleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  border-radius: 50px;
+  border: none;
+  background: #ffffff2d;
+
+}
+
+/* Menu lateral */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -200px; /* escondido */
+  width: 200px;
+  height: 100vh;
+  background-color: #002e60;
+  padding-top: 60px;
+
+  transition: 0.3s;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #003f83;
+}
+
+.menu.ativo {
+  left: 0;
+}
