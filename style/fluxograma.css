@@ -13,7 +13,7 @@ body .fluxograma{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:120px 24px 0px;
+    padding:80px 24px 0px;
 }
 
 .estilo_fluxograma button{
