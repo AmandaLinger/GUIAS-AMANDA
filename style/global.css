@@ -84,6 +84,11 @@ footer{
     font-size: 12px;
     position: absolute;
     bottom: 0px;
+
+}
+footer div p{
+    display: flex;
+    text-align: center;
 }
 
 .style_flex button {
